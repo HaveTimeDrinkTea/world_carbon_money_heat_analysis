@@ -81,10 +81,10 @@ To achieve this, the project aims to:
 
 ## Hypotheses
 
-H1: GDP per capita is positively associated with CO2 emissions per capita
-H2: Renewable energy is negatively associated with CO2 emissions per capita
-H3: CO2 emissions per capita decreased between 2019 and 2020
-H4: CO2 emissions per capita differ across income groups
+- H1: GDP per capita is positively associated with CO2 emissions per capita
+- H2: Renewable energy is negatively associated with CO2 emissions per capita
+- H3: CO2 emissions per capita decreased between 2019 and 2020
+- H4: CO2 emissions per capita differ across income groups
 
 Each hypothesis is tested against a corresponding null hypothesis using appropriate statistical methods.
 
