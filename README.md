@@ -1,72 +1,136 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-## Template Instructions
+# The Great Decoupling: Can Economic Growth Occur Without Increasing Carbon Emissions?
 
-Welcome,
+---
 
-This is the Code Institute student template for the Data Analytics capstone project. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
+## Project Overview
 
-You can safely delete the Template Instructions section of this README.md file and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
+The ```world_carbon_money_heat_analysis``` project investigates whether economic growth can be decoupled from CO2 emissions. Using global, country-level data, the analysis explores how economic development, energy composition, and structural differences influence emissions patterns over time.
 
-## How to use this repo
+The project integrates datasets on CO2 emissions per capita, GDP per capita, population, and energy production sources into a unified analytical dataset. Statistical techniques and visualisations are applied to identify relationships, trends, and disparities across countries and income groups.
 
-1. Use this template to create your GitHub project repo. Click the **Use this template** button, then click **Create a new repository**.
+By combining multiple data sources and analytical approaches, the project provides a comprehensive examination of how economic activity and energy use contribute to environmental impact, supporting the broader goal of sustainable development (IPCC, 2021).
 
-1. Copy the URL of your repository to your clipboard.
+--- 
 
-1. In VS Code, select **File** -> **Open Folder**.
+## Project Narrative
 
-1. Select your `vscode-projects` folder, then click the **Select Folder** button on Windows, or the **Open** button on Mac.
+This project explores whether economic growth can be achieved without increasing carbon emissions, a concept known as “decoupling.” Historically, economic development has been closely linked with environmental degradation, as industrialisation and increased energy demand have driven higher levels of carbon emissions (Stern, 2010).
 
-1. From the top menu in VS Code, select **Terminal** > **New Terminal** to open the terminal.
+However, advancements in renewable energy, global climate policies, and technological innovation have raised the possibility that countries can grow economically while reducing their environmental impact (OECD, 2020; International Energy Agency, 2022). This transition is critical in the context of climate change, where reducing emissions is essential for long-term sustainability (IPCC, 2021).
 
-1. In the terminal, type `git clone` followed by the URL of your GitHub repository. Then hit **Enter**. This command will download all the files in your GitHub repository into your vscode-projects folder.
+Using global datasets from Our World in Data (Ritchie et al., 2020), including CO2 emissions per capita, energy production by source, population, and GDP per capita, this project investigates trends across countries and over time.
 
-1. In VS Code, select **File** > **Open Folder** again.
+The analysis examines key factors influencing emissions, including renewable energy adoption, income levels, and global disruptions such as the decline in emissions observed in 2020. By comparing countries across income groups, the project identifies structural differences in emission patterns and evaluates whether cleaner energy transitions are sufficient to offset the environmental impact of economic growth.
 
-1. This time, navigate to and select the folder for the project you just downloaded. Then, click **Select Folder**.
+---
 
-1. A virtual environment is necessary when working with Python projects to ensure each project's dependencies are kept separate from each other. You need to create your virtual environment, also called a venv, and then ensure that it is activated any time you return to your workspace.
-Click the gear icon in the lower left-hand corner of the screen to open the Manage menu and select **Command Palette** to open the VS Code command palette.
+## Project Motivation
 
-1. In the command palette, type: *create environment* and select **Python: Create Environment…**
+Climate change is one of the most significant global challenges, driven largely by rising greenhouse gas emissions (IPCC, 2021). Historically, economic growth has been associated with increased emissions due to industrialisation and fossil fuel dependence (Grossman & Krueger, 1995).
 
-1. Choose **Venv** from the dropdown list.
+At the same time, economic development remains essential for improving living standards and reducing poverty (World Bank, 2024). This creates a fundamental tension between development and environmental sustainability.
 
-1. Choose the Python version you installed earlier. Currently, we recommend Python 3.12.8
+This project is motivated by the need to evaluate whether economic growth can occur without increasing emissions and to identify the key factors influencing global emission trends.
 
-1. **DO NOT** click the box next to `requirements.txt`, as you need to do more steps before you can install your dependencies. Click **OK**.
+---
 
-1. You will see a `.venv` folder appear in the file explorer pane to show that the virtual environment has been created.
+## Business Case
 
-1. **Important**: Note that the `.venv` folder is in the `.gitignore` file so that Git won't track it.
+Understanding the relationship between economic growth and CO2 emissions has significant implications for policymakers, organisations, and investors.
 
-1. Return to the terminal by clicking on the TERMINAL tab, or click on the **Terminal** menu and choose **New Terminal** if no terminal is currently open.
+Governments require robust, evidence-based insights to design climate strategies that balance economic development with emissions reduction targets (OECD, 2020). Similarly, organisations and investors rely on environmental data to inform ESG (Environmental, Social, Governance) decision-making and long-term sustainability planning.
 
-1. In the terminal, use the command below to install your dependencies. This may take several minutes.
+This project provides actionable insights into whether economic growth remains associated with increased emissions and whether renewable energy adoption contributes to emissions reduction. These findings support more informed decision-making in areas such as energy policy, sustainability strategy, and climate risk management.
 
- ```console
- pip3 install -r requirements.txt
- ```
+---
 
-1. Open the `jupyter_notebooks` directory, and click on the notebook you want to open.
+## Target Audience
 
-1. Click the **kernel** button and choose **Python Environments**.
+This project is designed for both technical and non-technical audiences.
 
-Note that the kernel says `Python 3.12.8` as it inherits from the venv, so it will be Python-3.12.8 if that is what is installed on your PC. To confirm this, you can use the command below in a notebook code cell.
+Technical audiences include data analysts, researchers, and data science professionals who require detailed explanations of statistical methods, modelling approaches, and data processing techniques.
 
-```console
-! python --version
-```
+Non-technical audiences include policymakers, sustainability professionals, business stakeholders, and the general public, who require clear, accessible insights supported by visualisations and concise explanations.
 
-## Deployment Reminders
+---
 
-* Set the `.python-version` Python version to a [Heroku-22](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version that closest matches what you used in this project.
-* The project can be deployed to Heroku using the following steps.
+## Project Objectives
 
-1. Log in to Heroku and create an App
-2. At the **Deploy** tab, select **GitHub** as the deployment method.
-3. Select your repository name and click **Search**. Once it is found, click **Connect**.
-4. Select the branch you want to deploy, then click **Deploy Branch**.
-5. The deployment process should happen smoothly if all deployment files are fully functional. Click the button **Open App** at the top of the page to access your App.
-6. If the slug size is too large, then add large files not required for the app to the `.slugignore` file.
+The primary objective of this project is to assess whether economic growth can be decoupled from CO2 emissions.
+
+To achieve this, the project aims to:
+
+- Analyse the relationship between GDP per capita and CO2 emissions
+- Evaluate whether renewable energy adoption is associated with reduced emissions
+- Assess changes in emissions over time, particularly between 2019 and 2020
+- Compare emissions across income groups
+- Provide clear, data-driven insights into sustainability and economic development
+
+---
+
+## Research Questions
+
+- Is economic growth still associated with higher CO2 emissions per capita, or is decoupling occurring?
+- Does a higher share of renewable energy lead to lower emissions?
+- Did CO2 emissions decrease between 2019 and 2020?
+- Do higher-income countries emit more CO2 per capita than lower-income countries?
+
+---
+
+## Hypotheses
+
+- H1: GDP per capita is positively associated with CO2 emissions per capita
+- H2: Renewable energy is negatively associated with CO2 emissions per capita
+- H3: CO2 emissions per capita decreased between 2019 and 2020
+- H4: CO2 emissions per capita differ across income groups
+
+Each hypothesis is tested against a corresponding null hypothesis using appropriate statistical methods.
+
+---
+
+## Hypothesis Testing
+
+Each hypothesis is evaluated using statistical methods appropriate to the data and research questions:
+- Linear Regression → GDP vs CO2 emissions (H1)
+- Multiple Regression → Renewable energy and GDP vs CO2 emissions (H2)
+- Paired t-test → Emissions comparison between 2019 and 2020 (H3)
+- One-way ANOVA → Emissions across income groups (H4)
+
+These methods are widely used in empirical economic and environmental research to identify statistically significant relationships within observational data (Wooldridge, 2013).
+
+---
+
+## Key Findings
+
+- Economic growth is significantly associated with higher CO2 emissions.
+- Renewable energy does not show a statistically significant independent effect when controlling for GDP.
+- CO2 emissions decreased significantly between 2019 and 2020. 
+- Higher-income countries have substantially higher emissions than lower-income countries.
+
+Overall, the findings suggest limited evidence of decoupling between economic growth and CO2 emissions.
+
+---
+
+## References
+
+- Grossman, G. M., & Krueger, A. B. (1995). *Economic growth and the environment*. The Quarterly Journal of Economics, 110(2), 353–377. https://doi.org/10.2307/2118443
+
+- International Energy Agency. (2022). *World energy outlook 2022*. https://www.iea.org/reports/world-energy-outlook-2022
+
+- Intergovernmental Panel on Climate Change (IPCC). (2021). *Climate change 2021: The physical science basis*.
+
+- Organisation for Economic Co-operation and Development (OECD). (2020). *Environment at a glance 2020*. OECD Publishing. https://doi.org/10.1787/4ea7d35f-en
+
+- Ritchie, H., Roser, M., & Rosado, P. (2024). *CO₂ and greenhouse gas emissions*. Our World in Data. https://ourworldindata.org/co2-and-greenhouse-gas-emissions
+
+- Stern, N. (2010). *The economics of climate change*. In *Climate ethics: Essential readings* (pp. 39–76).
+
+- Wooldridge, J. M. (2013). *Introductory econometrics: A modern approach* (5th ed.). South-Western Cengage Learning.
+
+- World Bank. (2024). *World development indicators*. https://data.worldbank.org
+
+
+
+
