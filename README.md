@@ -244,11 +244,11 @@ Overall, the findings suggest limited evidence of decoupling between economic gr
 ## How to Reproduce This Project
 * (Recommended) Create a virtual environment.
 * Clone the repository
-> git clone https://github.com/HaveTimeDrinkTea/Keeping_up_with_the_Joneses.git
+> git clone https://github.com/HaveTimeDrinkTea/world_carbon_money_heat_analysis.git
 * Install dependencies: 
 > pip install -r requirements.txt
 * Open the Jupyter notebooks (e.g.):
-> jupyter notebook juypter_notebooks/01_ETL_EDA_WellBeing_Data.ipynb
+> jupyter notebook jupyter_notebooks/01a_etl_owid_co2_data.ipynb
 
 -- 
 
